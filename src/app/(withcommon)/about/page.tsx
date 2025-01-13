@@ -7,6 +7,7 @@ const About = () => {
   return (
     <div>
       <section
+        className="min-h-[90vh] flex items-center justify-center relative"
         id="about"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1678247539441-05ad26a18343?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
@@ -19,7 +20,7 @@ const About = () => {
           <h2 className="font-bold text-2xl uppercase text-center mx-auto text-white">
             About me
           </h2>
-          <div className="bg-[#121212] p-4 bg-opacity-5 backdrop-blur-lg space-y-4 rounded-lg shadow-sm shadow-primary mx-auto drop-shadow-lg">
+          <div className="bg-[#121212] p-12 bg-opacity-5 backdrop-blur-lg space-y-4 rounded-lg shadow-sm shadow-primary mx-auto drop-shadow-lg">
             <Avatar
               alt="avatar"
               className="box-border h-32 mx-auto object-cover text-large w-32"
